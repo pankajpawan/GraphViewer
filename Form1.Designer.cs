@@ -36,6 +36,7 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.closeApp = new System.Windows.Forms.Button();
             this.generateChart = new System.Windows.Forms.Button();
+            this.createDatabase = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -78,16 +79,17 @@
             this.flowLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.flowLayoutPanel1.Controls.Add(this.closeApp);
             this.flowLayoutPanel1.Controls.Add(this.generateChart);
+            this.flowLayoutPanel1.Controls.Add(this.createDatabase);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(332, 477);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(259, 477);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(270, 47);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(416, 47);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // closeApp
             // 
             this.closeApp.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.closeApp.Location = new System.Drawing.Point(143, 3);
+            this.closeApp.Location = new System.Drawing.Point(289, 3);
             this.closeApp.Name = "closeApp";
             this.closeApp.Size = new System.Drawing.Size(124, 33);
             this.closeApp.TabIndex = 1;
@@ -98,13 +100,24 @@
             // generateChart
             // 
             this.generateChart.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.generateChart.Location = new System.Drawing.Point(9, 3);
+            this.generateChart.Location = new System.Drawing.Point(155, 3);
             this.generateChart.Name = "generateChart";
             this.generateChart.Size = new System.Drawing.Size(128, 33);
             this.generateChart.TabIndex = 0;
             this.generateChart.Text = "Select files to Plot";
             this.generateChart.UseVisualStyleBackColor = true;
             this.generateChart.Click += new System.EventHandler(this.generateChart_Click);
+            // 
+            // createDatabase
+            // 
+            this.createDatabase.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.createDatabase.Location = new System.Drawing.Point(21, 3);
+            this.createDatabase.Name = "createDatabase";
+            this.createDatabase.Size = new System.Drawing.Size(128, 33);
+            this.createDatabase.TabIndex = 2;
+            this.createDatabase.Text = "Create Database";
+            this.createDatabase.UseVisualStyleBackColor = true;
+            this.createDatabase.Click += new System.EventHandler(this.createDatabase_Click);
             // 
             // Form1
             // 
@@ -129,6 +142,7 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button closeApp;
         private System.Windows.Forms.Button generateChart;
+        private System.Windows.Forms.Button createDatabase;
     }
 }
 
